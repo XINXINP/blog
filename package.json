@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog.pxbtf.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "wuling",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.8.0",
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar"
+  }
+}
